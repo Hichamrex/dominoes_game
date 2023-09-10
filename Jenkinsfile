@@ -3,25 +3,25 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                sleep 190
+                sleep 195
                 echo 'Front end builded'
             }
         }
         stage('Test') {
             steps {
-                sleep 100 
+                sleep 99 
                 echo 'Front end test it'
             }
         }
         stage('Bolt Quality') {
           steps {
-              sleep 140  
+              sleep 160  
               echo 'Front end test it'
           }
         }
         stage('Realase') {
             steps {
-                sleep 54   
+                sleep 41   
                 echo 'Front end release it'
             }
         }
