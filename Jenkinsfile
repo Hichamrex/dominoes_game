@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 sleep 25 
-                error 'Intentional failure
+                error 'Intentional failure'
                 echo 'Front end test it'
             }
         }
